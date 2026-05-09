@@ -1,0 +1,17 @@
+app = "epona"
+primary_region = "yyz"
+
+[build]
+
+[env]
+  HOME_STATION = "MR"
+  WORK_STATION = "UN"
+  LINE = "ST"
+  TIMEZONE = "America/Toronto"
+  MIN_DEPARTURE_BUFFER_MINUTES = "2"
+  ENABLE_DISCORD = "true"
+  ENABLE_SLACK = "false"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
